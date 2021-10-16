@@ -1,14 +1,70 @@
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <style>
-  @media screen and (max-width: 640px)
-  </style>
+  
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+<style>
+  
+body, table {
+  font-size: 26px;
+}
+select {
+  font-size: 26px;
+ font-family: Times New Roman;
+}
+@media screen and (max-width: 640px)
+  
+</style>
+
 </head>
-<h2>
-Year
-<select name="membership" id="membership">
-  <option value="free">2004</option>
-  <option value="bronze">2005</option>
-  <option value="silver" selected>2006</option>
-  <option value="Gold">2007</option>
-</select></h2>
+
+<table>
+<tr>
+<td>Year <select name="year" id="year">
+  <option value="2004">2004</option>
+  <option value="2005">2005</option>
+  <option value="2006">2006</option>
+  <option value="2007">2007</option>
+  <option value="2008">2008</option>
+  <option value="2009">2009</option>
+  <option value="2010">2010</option>
+  <option value="2011">2011</option>
+  <option value="2012">2012</option>
+</select></td>
+</tr>
+<tr>
+<td>Trim <select name="membership" id="membership">
+  <option value="Actual">Actual</option>
+  <option value="Active">Active</option>
+  <option value="Dynamic">Dynamic</option>
+  <option value="Emotion">Emotion</option>
+  <option value="Climbing">Climbing</option>
+</select></td>
+</tr>
+<tr>
+<td>Mileage <select name="membership" id="membership">
+  <option value="50000" select>50000</option>
+  <option value="75000">75000</option>
+  <option value="100000">100000</option>
+  <option value="150000">125000</option>
+  <option value="150000">150000</option>
+  <option value="175000">175000</option>
+  <option value="200000">200000</option>
+</select></td>
+</tr>
+<tr>
+<td>Engine <select name="engine" id="engine">
+  <option value="1,1">1,1</option>
+  <option value="1,2">1,2</option>
+  <option value="1,3">1,3</option>
+</select></td>
+</tr>
+<tr>
+<td>Status <select name="status" id="status">
+  <option value="neinmatriculata">Neînmatriculată</option>
+  <option value="inmatriculata">Înmatriculată</option>
+</select></td>
+</tr>
+<tr>
+<td>Price</td>
+</tr>
+</table>
